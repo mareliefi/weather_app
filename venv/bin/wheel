@@ -1,4 +1,4 @@
-#!/home/marli/Projects/Courses/weather_app/venv/bin/python2.7
+#!/home/marli/Projects/Courses/weather_app/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
