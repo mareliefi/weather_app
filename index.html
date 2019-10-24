@@ -1,0 +1,57 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <title>Weather App</title>  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">  
+  <link href="css/site.css" rel="stylesheet"> 
+  <title>Weather info</title>  
+</head>  
+<body>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>    
+  <main class="main-container">  
+    <div class="location-and-date">  
+      <h1 class="location-and-date__location">Pretoria, S.A.</h1>
+      <div id="current_date"> </div>
+    </div>
+
+    <div class="current-temperature">  
+      <div class="current-temperature__icon-container">
+        <img id="curtemppic" class="current-temperature__icon" alt="">  
+      </div>  
+      <div class="current-temperature__content-container">  
+        <div class="current-temperature__value" id="temp"></div>  
+        <div class="current-temperature__summary" id="weatherDescription"></div>
+      </div>  
+    </div> 
+
+    <div class="current-stats" script>
+      <div class="current-stats-head">C) Current stats</div>  
+      <div id="tempMax"></div>
+      <div id="tempMin"></div>
+      <div id="pressure"></div>
+      <div id="humidity"></div>  
+    </div>  
+
+    <div class="next-5-days">  
+      <div id="forecasthead">D) Next 5 days: </div>
+      <div id="forecastDay1">
+        <div class="current-temperature__icon-container" id="curtemppic1">
+        </div>
+      </div>
+      <div id="forecastDay2">
+        <img id="curtemppic2" alt="">
+      </div>
+      <div id="forecastDay3">
+        <img id="curtemppic3" alt="">
+      </div>
+      <div id="forecastDay4">
+        <img id="curtemppic4" alt="">
+      </div>
+    </div>
+  </main>  
+</body>  
+</html>
